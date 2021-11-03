@@ -19,12 +19,17 @@ Set up all the files to code
 Including classes Employee, Manager, Engineer and Intern 
 tests, create js files for each in a library. All inheriting from employee.
 html 
-    - add the html cards to the constructors
+    - add the html cards to the constructors and app page
     - css file for output
 Use jest and inquirer (npm)
+Testing parameters passed
+Added validations to name and id
 
 ## Testing
+
+Minor get name tests ran for each lib file - passed. Will create more comprehensive tests at a later time.
 
 Initial choices - node app run reacts with an error, terminal is communicating with js.
 Reworked some of the file code
 Constructors throw no error when ran through node app.js
+Testing files - tests pass but I will add more parameters at a later time

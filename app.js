@@ -1,5 +1,11 @@
+//Given a command-line application that accepts user input, when 
+//I am prompted for my team members and their information, 
+//then an HTML file is generated that displays a nicely formatted team roster based on user input.
+
 const inquirer = require('inquirer');
+//for html 
 const fs = require('fs');
+//construnctors
 const Manager = require('./lib/Manager');
 const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern');
@@ -25,7 +31,7 @@ function empQuestions(){
 empQuestions();
 
 function createTeamMembers(role){
-
+//switch for role overload
     switch(role){
         case "engineer":
             inquirer
@@ -53,5 +59,6 @@ function createTeamMembers(role){
     }
 }
 
+//html build here
 
 
