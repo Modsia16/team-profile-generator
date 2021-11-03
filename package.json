@@ -8,13 +8,12 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fs": "^0.0.1-security",
     "inquirer": "^8.2.0"
   },
   "devDependencies": {
