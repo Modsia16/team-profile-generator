@@ -1,14 +1,15 @@
 //Given a command-line application that accepts user input, when 
 //I am prompted for my team members and their information, 
 //then an HTML file is generated that displays a nicely formatted team roster based on user input.
-
 const inquirer = require('inquirer');
-//for html 
-const fs = require('fs');
+
 //construnctors
 const Manager = require('./lib/Manager');
 const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern');
+
+//for html 
+const fs = require('fs');
 
 // initial build question prompts and promises here
 //for new team members
@@ -59,6 +60,28 @@ function createTeamMembers(role){
     }
 }
 
-//html build here
-
+//html build here fs.writeFile
+function createHtml() {
+    const html = [
+    `<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="./output/style.css" />
+        <title>Team Profile Generator</title>
+    </head>
+    <body>`]
+    for(let i = 0; i < team.length; i++) {
+        html.push(team[i].html);
+    }
+    const htmlEnd = [...html, `</body> </html>`];
+    const htmlString = htmlEnd.join('');
+//file is not generating or console.logging
+    fs.writeFile('./output/team.html', htmlString, (err) => {
+        if (err) throw err;
+        console.log('The file has been saved!');
+    });
+}
 

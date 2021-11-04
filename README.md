@@ -33,3 +33,4 @@ Initial choices - node app run reacts with an error, terminal is communicating w
 Reworked some of the file code
 Constructors throw no error when ran through node app.js
 Testing files - tests pass but I will add more parameters at a later time
+The output html is not loading but questions end when prompted - will turn in an work on at a later time
