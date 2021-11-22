@@ -54,7 +54,7 @@ Fixed the output html and is loading questions when prompted and generating html
 
 ## Demos
 
-![demo](./assets/team-gen-demo.gif)
+![demo](./assets/team-prof-demo.gif)
 
 ![output](./assets/outputscreenshot.png)
 
