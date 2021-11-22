@@ -32,5 +32,13 @@ Minor get name tests ran for each lib file - passed. Will create more comprehens
 Initial choices - node app run reacts with an error, terminal is communicating with js.
 Reworked some of the file code
 Constructors throw no error when ran through node app.js
-Testing files - tests pass but I will add more parameters at a later time
-The output html is not loading but questions end when prompted - will turn in an work on at a later time
+Testing files - tests pass
+Fixed the output html and is loading questions when prompted and generating html file
+
+## Demos
+
+![demo](./assets/team-gen-demo.gif)
+
+![output](./assets/outputscreenshot.png)
+
+![tests](./assets/team-test-scrnshot.png)
