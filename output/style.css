@@ -5,18 +5,14 @@ body {
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 grey;
     max-width: 300px;
     margin: auto;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.card-header {
-    background-color: #4CAF50;
+header {
+    background-color: black;
     color: white;
-}
-
-.card-body {
-    padding: 5px;
 }
