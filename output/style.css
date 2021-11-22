@@ -6,13 +6,12 @@ body {
 
 .card {
     box-shadow: 0 4px 8px 0 grey;
-    max-width: 300px;
-    margin: auto;
+    max-width: 600px;
+    margin: 2rem;
     text-align: center;
+    padding: 2rem;
+    justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-header {
-    background-color: black;
-    color: white;
+    width: 400px;
+    height: 150px;
 }

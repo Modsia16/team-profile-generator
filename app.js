@@ -64,9 +64,9 @@ function createHtml(){
     <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Document</title>
+        <title>Team Profile Generator</title>
         <link rel="stylesheet" href="style.css">`]
     for(let i=0; i < team.length; i++){
         topHtmlArray.push(team[i].html);
@@ -76,7 +76,7 @@ function createHtml(){
         </html>`]
     const finalHtml = finalHtmlArray.join("");
     fs.writeFile("./output/team.html", finalHtml, function(){
-        console.log("Team file created! Check team.html folder!")
+        console.log("Team file created! Check the team.html file in the output folder!")
     })
 }
 
