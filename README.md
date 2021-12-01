@@ -54,7 +54,7 @@ Fixed the output html and is loading questions when prompted and generating html
 
 ## Demos
 
-![demo](./assets/team-prof-demo.gif)
+![YouTube-Demo] https://youtu.be/5Ri0ticyUiw
 
 ![output](./assets/outputscreenshot.png)
 
